@@ -1,5 +1,9 @@
 package Day02;
 
+/**
+ * @author August Zhu
+ *
+ */
 public class str36 {
 	public static void main(String[] agrs) {
      char[]c1={'I','a','m','a','b','o','y'};

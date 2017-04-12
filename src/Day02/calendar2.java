@@ -3,6 +3,10 @@ package Day02;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
+/**
+ * @author August Zhu
+ *
+ */
 public class calendar2 {
 public static void main(String[] args)
 {

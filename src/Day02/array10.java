@@ -1,5 +1,9 @@
 package Day02;
 
+/**
+ * @author August Zhu
+ *
+ */
 public class array10 {
 	int[] a = new int[] { 2, 4, 6, 8, 10 };
 	int[] b = new int[] { 1, 3, 5, 7, 9 };

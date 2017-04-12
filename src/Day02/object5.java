@@ -1,5 +1,9 @@
 package Day02;
 
+/**
+ * @author August Zhu
+ *
+ */
 public class object5 {
 	public void print2()
 	{
