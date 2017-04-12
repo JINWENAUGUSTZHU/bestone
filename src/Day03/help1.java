@@ -16,10 +16,9 @@ class goods {
 	}
 	void print2(){
 		System.out.println("请输入要购买"+name+"的数量：");
-		sum1();
 	}
-void sum1(){
-	int sum = price*num;
+void sum(){
+	 sum = price*num;
 }
 	
 }
@@ -48,6 +47,9 @@ public static void main(String[] args)
 	b.num=input.nextInt();
 	c.print2();
 	c.num=input.nextInt();
+	a.sum();
+	b.sum();
+	c.sum();
 	System.out.println("****************消费清单***************");
 	System.out.println("物品"+"                     "+"价格"+"                     "+"个数"+"                     "+"金额");
 	System.out.println(a.name+"                     "+a.price+"      "+a.num+"      "+a.sum);
