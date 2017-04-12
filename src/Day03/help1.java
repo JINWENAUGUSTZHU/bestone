@@ -58,10 +58,11 @@ public static void main(String[] args)
 	System.out.println("**********************************");
 	System.out.println("折扣："+d+"折");
 	double e=a.price+b.price+c.price;
-	System.out.println("消费总额为："+e);
+	String f1 = new java.text.DecimalFormat("#").format(e);
+	System.out.println("消费总额为："+f1);
 	double f=d*0.1*(a.price+b.price+c.price);
-	 String f1 = new java.text.DecimalFormat("#.0").format(f);
-	System.out.println("实际支付金额为："+f1);
+	 String f2 = new java.text.DecimalFormat("#.0").format(f);
+	System.out.println("实际支付金额为："+f2);
 	
 	}
 
