@@ -52,15 +52,16 @@ public static void main(String[] args)
 	c.sum();
 	System.out.println("****************消费清单***************");
 	System.out.println("物品"+"                     "+"价格"+"                     "+"个数"+"                     "+"金额");
-	System.out.println(a.name+"                     "+a.price+"      "+a.num+"      "+a.sum);
-	System.out.println(b.name+"                     "+b.price+"      "+b.num+"      "+b.sum);
-	System.out.println(c.name+"                        "+c.price+"      "+c.num+"      "+c.sum);
+	System.out.println(a.name+"                     "+a.price+"      "+a.num+"        "+a.sum);
+	System.out.println(b.name+"                     "+b.price+"      "+b.num+"        "+b.sum);
+	System.out.println(c.name+"                        "+c.price+"      "+c.num+"        "+c.sum);
 	System.out.println("**********************************");
 	System.out.println("折扣："+d+"折");
 	double e=a.price+b.price+c.price;
 	System.out.println("消费总额为："+e);
 	double f=d*0.1*(a.price+b.price+c.price);
-	System.out.println("实际支付金额为："+Math.round(f));
+	 String f1 = new java.text.DecimalFormat("#.0").format(f);
+	System.out.println("实际支付金额为："+f1);
 	
 	}
 
