@@ -2,7 +2,7 @@ package Day03;
 import java.util.Scanner;
 /**
  * @author August Zhu
- *
+ *ÕâÊÇ¸ö²âÊÔ
  */
 
 class goods {
