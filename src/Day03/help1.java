@@ -2,7 +2,7 @@ package Day03;
 import java.util.Scanner;
 /**
  * @author August Zhu
- *这是个测试
+ *这是个给柠檬群友的demo
  */
 
 class goods {
