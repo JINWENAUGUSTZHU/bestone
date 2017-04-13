@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 /**
  * @author August Zhu 这是个给柠檬群友的demo
+ * 定义了一个类。goods。然后构造器new三个对象。分别赋值。然后执行方法。最后打印出来。
  */
 
 class goods {
