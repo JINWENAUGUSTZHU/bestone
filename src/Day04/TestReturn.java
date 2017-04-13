@@ -4,7 +4,8 @@ public class TestReturn {
     public static void main(String args[]) { 
        TestReturn t = new TestReturn(); 
         t.test1(); 
-        t.test2(); 
+        t.test2();
+        System.out.println(t.test2());
     } 
 
     /** 
