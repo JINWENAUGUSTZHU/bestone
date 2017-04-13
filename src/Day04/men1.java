@@ -2,7 +2,7 @@ package Day04;
 
 /**
  * @author August Zhu
- *
+ *定义了一个类Person,person有两个方法。一个不带参数
  */
 class Person {
 	int a;
