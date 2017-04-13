@@ -16,8 +16,8 @@ private double weight;
 	 age=jage;
 	 weight=jweight;
  }
- public String eat (String food){
-	 return "我在吃"+food;
+  String eat (int food){
+	 return "我在吃"+food ;
  }
  public void game(){
 	 System.out.println("我在打游戏");
@@ -28,5 +28,7 @@ private double weight;
 	 System.out.println("姓名"+people.sex);
 	 System.out.println("姓名"+people.age);
 	 System.out.println("姓名"+people.weight);
+	 people.game();
+	 people.eat(food);
  }
  }
