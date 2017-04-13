@@ -4,16 +4,16 @@ package Day04;
  * @author August Zhu
  *
  */
-class Person {
+class Person1 {
 	int a;
 
-	Person() {
+	Person1() {
 		a = 10;
 		System.out.println("this is father class constructor!");
 	}
 
 }
-public class men extends Person{
+public class men extends Person1{
 	int b;
 	men()
 	{
