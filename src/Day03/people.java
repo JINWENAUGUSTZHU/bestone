@@ -19,6 +19,9 @@ private double weight;
    public String eat (String food){
 	 return "我在吃"+food ;
  }
+   void print(String a){
+	   System.out.println(a);
+   }
  public void game(){
 	 System.out.println("我在打游戏");
  }
@@ -30,6 +33,6 @@ private double weight;
 	 System.out.println("姓名"+people.weight);
 	 people.game();
 	 String food="可口的米饭";
-	people.eat(food);
+	 people.print(people.eat(food));
  }
  }
