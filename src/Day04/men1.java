@@ -20,7 +20,7 @@ public class men1 extends Person
 	int b;
 	men1(int a ,int b)
 	{
-		super(a);
+		super();
 		this.b=b;
 	}	
 	public static void main (String [] args)
