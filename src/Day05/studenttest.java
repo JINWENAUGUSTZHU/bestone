@@ -76,7 +76,7 @@ public class studenttest {
 		System.out.println(sm.toString());
 		sc1.set("小花", "3", "女");
 		sc1.set(100.0);
-		sc1.set("學習委員");
+		sc1.set("学习委员");
 		System.out.println(sc1.toString());
 
 	}
