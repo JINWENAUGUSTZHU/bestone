@@ -1,5 +1,9 @@
 package Day06;
 
+/**
+ * @author August Zhu
+ *
+ */
 public class schooltest {
 public static void main(String[] args){
 	student st1=new student();

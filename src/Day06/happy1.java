@@ -2,6 +2,10 @@ package Day06;
 
 import java.util.Scanner;
 
+/**
+ * @author August Zhu
+ *
+ */
 public class happy1 {
 public static void main(String[] args){
                int i,j,k,n;
