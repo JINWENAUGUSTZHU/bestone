@@ -2,7 +2,8 @@ package Day06;
 
 /**
  * @author August Zhu
- *
+ *school为interface
+ *student和teacher类均实现school接口，故，在student和teacher类中，需要都添加（接口里的方法必须都实现,实现接口，就必须实现接口中的所有方法，哪怕是空实现也可以），于是选择 add unimplemented methods即可。自动生成@override,表示重写接口的方法。
  */
 class student implements school {
 
