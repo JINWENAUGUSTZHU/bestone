@@ -4,7 +4,7 @@ package Day06;
  * @author August Zhu
  *
  */
- class student implements school {
+class student implements school {
 
 	private String schoolname;
 	private String classname;
@@ -75,5 +75,53 @@ package Day06;
 		String infor = "学校  名称：" + schoolname + "" + "班级名称：" + classname + "" + "学生姓名：" + studentname + "" + "学号："
 				+ studentcode + "性别：" + studentsexy + "出生年月：" + studentbirthday + "" + "家庭地址：" + familyaddress;
 		return infor;
+	}
+
+	@Override
+	public void setstudentname(String name) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void setstudentcode(String code) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void setstudentsexy(String sexy) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void setstudentbirthday(String birthday) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public String getstudentname() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getstudentcode() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getstudentsexy() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getstudentbirthday() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }

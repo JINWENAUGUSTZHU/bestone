@@ -74,4 +74,64 @@ class teacher implements school {
 				+ teachercode + "性别：" + teachersexy + "出生年月：" + teacherbirthday + "" + "家庭地址：" + familyaddress;
 		return infor;
 	}
+
+	@Override
+	public void setstudentname(String name) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void setstudentcode(String code) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void setstudentsexy(String sexy) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void setstudentbirthday(String birthday) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public String getschoolname() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getstudentname() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getstudentcode() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getstudentsexy() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getstudentbirthday() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getfamilyaddress() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
