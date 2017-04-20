@@ -2,7 +2,8 @@ package Day08;
 
 /**
  * @author August Zhu
- *
+ *定义一个接口flower,flowers实现接口，类flower1继承flowers类
+ *从面向对象的角度来说，函数是对象的行为，被称为方法，数据则称为对象的属性；
  */
 public class flowertest {
 	public static void main(String[] args) {
@@ -58,7 +59,7 @@ class flowers implements flower {
 	}
 }
 
-class flower1 extends flower {
+class flower1 extends flowers {
 	private String country;
 	private String city;
 
@@ -79,7 +80,7 @@ class flower1 extends flower {
 	}
 
 	public String tostring() {
-		String information = super.toString() + "" + "這種花出資的國家：" + country + "；" + "" + "出自的城市：" + city;
+		String information = super.tostring() + "" + "這種花出資的國家：" + country + "；" + "" + "出自的城市：" + city;
 		return information;
 	}
 }
