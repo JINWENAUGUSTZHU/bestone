@@ -17,6 +17,8 @@ public class first {
 	public static void main(String[] args) {
 		String str1 = "abc";
 		String str2 = "abc";
+		int i=9;
+		int j=9;
 		if (str1!=null&&str1.equals("")) {
 			System.out.println("×Ö·û´®ÊÇ¿Õ´®");
 		} else {
@@ -29,7 +31,16 @@ public class first {
 		System.out.println(str1 == str2);
 		System.out.println(str3 == str4);
 		System.out.println(str1 == str3);
-
+		
+		System.out.println(i==j++);
+		System.out.println("i="+i+"j="+j);
+        System.out.println(++i==j);
+        System.out.println("i="+i+"j="+j);
+        System.out.println(i++==j);
+        System.out.println("i="+i+"j="+j);
+        System.out.println(i==++j);
+        System.out.println("i="+i+"j="+j);
+        
 		System.out.println(str1.equals(str2));
 		System.out.println(str3.equals(str4));
 		System.out.println(str1.equals(str3));
